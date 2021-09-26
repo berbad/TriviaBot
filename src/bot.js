@@ -1,4 +1,4 @@
-// Berdason Badel
+// Author: Berdason Badel
 
 require("dotenv").config();
 
