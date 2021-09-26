@@ -1,7 +1,5 @@
 require("dotenv").config();
 
-//console.log(process.version);
-
 const fs = require('fs');
 var path = require("path")
 var file = fs.readFileSync(path.resolve(__dirname, "./score.json"))
