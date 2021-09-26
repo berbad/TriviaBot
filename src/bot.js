@@ -1,3 +1,5 @@
+// Berdason Badel
+
 require("dotenv").config();
 
 const fs = require('fs');
@@ -40,7 +42,6 @@ client.on('messageCreate', (message) => { // call back
         let solution = trivia.history[rand].solution;
         let answers = trivia.history[rand].answers;
         let response = "";
-        //message.reply(trivia.history[rand].question);
 
         for (let i = 0; i < answers.length; i++) {
             response += solutionToEmoji(i) + " " + answers[i] + "\n"
@@ -80,7 +81,6 @@ client.on('messageCreate', (message) => { // call back
                 
                 .catch(e => {
                     console.log(e)
-                    //console.log(`After 10 seconds, ${collected.size} player(s) reacted`);
                 });
         });
 
@@ -133,7 +133,6 @@ client.on('messageCreate', (message) => { // call back
                 
                 .catch(e => {
                     console.log(e)
-                    //console.log(`After 10 seconds, ${collected.size} player(s) reacted`);
                 });
         });
 
