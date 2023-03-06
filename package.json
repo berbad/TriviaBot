@@ -9,7 +9,7 @@
     "dev": "nodemon ./src/bot.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Berdason Badel",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.1.0",
